@@ -1,0 +1,7 @@
+restart and quit
+difficulties
+boss
+gun
+shop
+magic items
+health bar
