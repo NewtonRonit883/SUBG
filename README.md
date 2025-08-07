@@ -1,6 +1,28 @@
-SUBG (Shinchan Unknown Battleground)
-A small game made by me in 11th Class project
-It's a short platformer game consisting of a player surviving from enemies and other obstacles
+from pathlib import Path
 
-How to Play the Game:
-1. To play the game
+readme_text = """
+# SUBG - Shinchan's Ultimate Battle Game
+
+**SUBG** is a fun and engaging 2D runner game built using **Pygame** where you control Shinchan (or Ronit the Astronaut) as he navigates obstacles, collects coins, and survives through chaos.
+
+## 🎮 Controls
+
+- **Left Arrow (←)**: Move Left
+- **Right Arrow (→)**: Move Right
+- **Spacebar**: Jump
+- **Escape**: Pause / Back / Exit
+
+## 🛠 Requirements
+
+Make sure the following are installed:
+
+- Python 3.8 or higher
+- pygame
+- pyttsx3
+- SpeechRecognition
+- pyaudio (required for microphone input)
+
+Install requirements using:
+
+```bash
+pip install pygame pyttsx3 SpeechRecognition pyaudio
